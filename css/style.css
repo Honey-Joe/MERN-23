@@ -1,0 +1,32 @@
+/* *{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+.container{
+
+    color: blueviolet;
+}
+
+h3{
+    color: green;
+}
+
+#h3{
+    color: brown;
+} */
+
+.text{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Roboto";
+    /* font-size: 25px; */
+    font-weight: 400;
+    font-style: normal;
+    line-height: 50px;
+    text-align: justify;
+    text-decoration: underline dotted;
+    text-transform: lowercase;
+}
