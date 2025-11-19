@@ -1,0 +1,24 @@
+h1{
+    /* color: rgb(70, 214, 17); */
+    color: #7a1c1c;
+}
+
+.container{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    /* padding: 50px; */
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 5px double red;
+    border-top-left-radius: 30px;
+    margin: 30px;
+    /* background-image: url(../download.jpeg) ; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    background-position: center ;
+
+}

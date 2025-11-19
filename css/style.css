@@ -22,11 +22,11 @@ h3{
 .text{
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: "Roboto";
-    /* font-size: 25px; */
+    font-size: 25px; 
     font-weight: 400;
-    font-style: normal;
+    font-style: oblique;
     line-height: 50px;
     text-align: justify;
-    text-decoration: underline dotted;
+    text-decoration:line-through;
     text-transform: lowercase;
 }
