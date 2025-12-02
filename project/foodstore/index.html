@@ -1,93 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Store</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <!-- Why Choose us Starting  -->
     <section>
-        <div class="max-w-[100%] py-10 space-y-7">
-            <div class="w-[90%] md:w-[75%] mx-auto space-y-4">
-                <h2 class="text-[28px] text-[#183b56] leading-[34px] font-[700]">Why Choose Us?</h2>
-                <p class="text-[16px] text-[#5a7184] ">We use both original recipes and classic versions of famous food items.</p>
-
-            </div>
-            <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-                <div class="flex flex-col justify-center items-center gap-3 p-7 border rounded-lg">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png" alt="food-card-img">
-                    <h2 class="text-[22px] leading-[26px] text-[#323f4b] ">Food Service</h2>
-                    <p class="text-[16px] leading-[26px] text-[#7b8794] text-center">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
-                </div>
-                <div class="flex flex-col justify-center items-center gap-3 p-7 border rounded-lg">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png" alt="food-card-img">
-                    <h2 class="text-[22px] leading-[26px] text-[#323f4b] ">Food Service</h2>
-                    <p class="text-[16px] leading-[26px] text-[#7b8794] text-center">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
-                </div>
-                <div class="flex flex-col justify-center items-center gap-3 p-7 border rounded-lg">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png" alt="food-card-img">
-                    <h2 class="text-[22px] leading-[26px] text-[#323f4b] ">Food Service</h2>
-                    <p class="text-[16px] leading-[26px] text-[#7b8794] text-center">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
-                </div>
-            </div>
+      <div class="max-w-[100%] py-10 space-y-7">
+        <div class="w-[90%] md:w-[75%] mx-auto space-y-4">
+          <h2 class="text-[28px] text-[#183b56] leading-[34px] font-[700]">
+            Why Choose Us?
+          </h2>
+          <p class="text-[16px] text-[#5a7184]">
+            We use both original recipes and classic versions of famous food
+            items.
+          </p>
         </div>
+        <div
+          class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7"
+        >
+          <div
+            class="flex flex-col justify-center items-center gap-3 p-7 border rounded-lg"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png"
+              alt="food-card-img"
+            />
+            <h2 class="text-[22px] leading-[26px] text-[#323f4b]">
+              Food Service
+            </h2>
+            <p class="text-[16px] leading-[26px] text-[#7b8794] text-center">
+              Experience fine dining at the comfort of your home. All our orders
+              are carefully packed and arranged to give you the nothing less
+              than perfect.
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 p-7 border rounded-lg"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png"
+              alt="food-card-img"
+            />
+            <h2 class="text-[22px] leading-[26px] text-[#323f4b]">
+              Food Service
+            </h2>
+            <p class="text-[16px] leading-[26px] text-[#7b8794] text-center">
+              Experience fine dining at the comfort of your home. All our orders
+              are carefully packed and arranged to give you the nothing less
+              than perfect.
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 p-7 border rounded-lg"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/food-serve.png"
+              alt="food-card-img"
+            />
+            <h2 class="text-[22px] leading-[26px] text-[#323f4b]">
+              Food Service
+            </h2>
+            <p class="text-[16px] leading-[26px] text-[#7b8794] text-center">
+              Experience fine dining at the comfort of your home. All our orders
+              are carefully packed and arranged to give you the nothing less
+              than perfect.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Why Choose us ending  -->
 
     <!-- Explore Menu Starting  -->
-     <section>
-        <div class="max-w-[100%] py-10 space-y-4">
-            <div class="w-[90%] md:w-[75%] mx-auto">
-                <h2 class="text-[28px] text-[#183b56] leading-[34px] font-[700]">Explore Menu</h2>
-            </div>
-            <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+    <section>
+      <div class="max-w-[100%] py-10 space-y-4">
+        <div class="w-[90%] md:w-[75%] mx-auto">
+          <h2 class="text-[28px] text-[#183b56] leading-[34px] font-[700]">
+            Explore Menu
+          </h2>
+        </div>
+        <div
+          class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7"
+        >
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl"
+          >
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png"
+              alt="menu img"
+              class="rounded-lg"
+            />
+            <h2 class="text-[#323f4b] text-[18px] font-[500]">
+              Non-Veg Starters
+            </h2>
+            <button
+              class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D1B200"
+                stroke-width="1.875"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-right-icon lucide-arrow-right"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Explore Me <section>
+        <div class="max-w-[100%] py-10">
+            <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-5">
+                    <h2 class="text-[#183b56] text-[28px] font-[500]">Follow us</h2>
+                    <div class="flex justify-center gap-5">
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-                <div class="flex flex-col gap-4 border rounded-lg p-7 justify-center shadow-xl">
-                    <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/em-ginger-fried-img.png" alt="menu img" class="rounded-lg">
-                    <h2 class="text-[#323f4b] text-[18px] font-[500]">Non-Veg Starters</h2>
-                    <button class="flex gap-4 items-center text-[#D1B200] hover:text-blue-500 hover:underline">View More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D1B200" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
-                </div>
-
             </div>
         </div>
-     </section>
-     <!-- Explore Menu Ending  -->
-</body>
+    </section>nu Ending  -->
+
+    <!-- Fresh Section Starting -->
+    <section>
+      <div class="max-w-[100%] py-10">
+        <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2">
+          <div class="flex justify-center">
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/healthy-food-plate-img.png"
+              alt="fresh_section_img"
+            />
+          </div>
+          <div class="gap-5 flex flex-col items-start justify-center">
+            <h2 class="text-[#183b56] text-[28px] font-[700]">
+              Fresh, Healthy, Organic, Delicious Fruits
+            </h2>
+            <p class="text-[#5a7184] text-[16px] leading-[24px]">
+              Say no to harmful chemicals and go fully organic with our range of
+              fresh fruits and veggies. Pamper your body and your senses with
+              the true and unadulterated gifts from mother nature. with the true
+              and unadulterated gifts from mother nature.
+            </p>
+            <button class="bg-[#C5A901] text-white rounded-lg px-5 py-2">
+              Watch Video
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fresh Section ending  -->
+
+    <!-- Delivery Section starting  -->
+    <section>
+      <div class="max-w-[100%] py-10">
+        <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2">
+          <div class="gap-5 flex flex-col items-start justify-center order-2 md:order-1">
+            <h2 class="text-[#183b56] text-[28px] font-[700]">
+              Delivery and Payment
+            </h2>
+            <p class="text-[#5a7184] text-[16px] leading-[24px]">
+              Enjoy hassle-free payment with the plenitude of payment options
+              available for you. Get live tracking and locate your food on a
+              live map. It's quite a sight to see your food arrive to your door.
+              Plus, you get a 5% discount on every order every time you pay
+              online.
+            </p>
+            <button class="bg-[#C5A901] text-white rounded-lg px-5 py-2">
+              Order Now
+            </button>
+            <div class="flex gap-2">
+                <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/visa-card-img.png" alt="payment_img" class="w-10">
+                <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/visa-card-img.png" alt="payment_img" class="w-10">
+                <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/visa-card-img.png" alt="payment_img" class="w-10">
+                <img src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/visa-card-img.png" alt="payment_img" class="w-10">
+            </div>
+          </div>
+          <div class="flex justify-center order-1 md:order-2">
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/delivery-payment-section-img.png"
+              alt="delivery_section_img"
+              class="w-[70%]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Delivery Section ending  -->
+
+    <!-- Gift Section Starting -->
+    <section>
+      <div class="max-w-[100%] py-10">
+        <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2">
+          <div class="gap-5 flex flex-col items-start justify-center order-2 md:order-1">
+            <h2 class="text-[#183b56] text-[28px] font-[700]">
+              Thank <section>
+        <div class="max-w-[100%] py-10">
+            <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-5">
+                    <h2 class="text-[#183b56] text-[28px] font-[500]">Follow us</h2>
+                    <div class="flex justify-center gap-5">
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> you for being a valuable customer to us.
+            </h2>
+            <p class="text-[#5a7184] text-[16px] leading-[24px]">
+              We have a surprise gift for you
+            </p>
+            <button class="bg-[#C5A901] text-white rounded-lg px-5 py-2">
+              Redeem Now
+            </button>
+            
+          </div>
+          <div class="flex justify-center order-1 md:order-2">
+            <img
+              src="https://ik.imagekit.io/4z8covdo9/MERN-COURSE-ASSETS/FOOD-STORE/thanking-customers-section-img.png"
+              alt="delivery_section_img"
+              class="w-[40%]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gift Section ending  -->
+
+    <!-- Follow us section starting  -->
+    <section>
+        <div class="max-w-[100%] py-10">
+            <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-5">
+                    <h2 class="text-[#183b56] text-[28px] font-[500]">Follow us</h2>
+                    <div class="flex justify-center gap-5">
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                        <div class="bg-[#EFCE69] p-5 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Follow us section ending  -->
+
+    <!-- footer section starting  -->
+     <footer>
+        <div class="max-w-[100%] bg-[#0C2437] py-20">
+            <div class="w-[90%] md:w-[75%] mx-auto grid grid-cols-1">
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <img src="https://ik.imagekit.io/allah786/chat.jpg?updatedAt=1764680387818" alt="footer_img" class="w-20">
+                    <h2 class="text-[#959ead] font-[500]">orderfood@foodmunch.com</h2>
+                    <p class="text-[#959ead]">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+                </div>
+            </div>
+        </div>
+     </footer>
+     <!-- footer section ending  -->
+  </body>
 </html>
